@@ -9,9 +9,9 @@
   </head>
   <body>
     <header class="header">
-      <div>
+      <div class="container">
         <figure class="logo">
-          <img src="images/logo.png" alt="Logo de https://yupaku.site" />
+          <img src="images/logo.png" height="50" alt="Logo de https://yupaku.site" />
         </figure>
         <nav class="menu">
           <ol>
@@ -19,56 +19,143 @@
             <li><a href="#eventos" class="link">Experiencia</a></li>
             <li><a href="#contacto" class="link">Trabajemos juntos</a></li>
           </ol>
-        </nav>
+        </nav>  
       </div>
     </header>
     <section class="hero">
-      <h1>
-        Saludos! Soy <strong>Leonardo Mendieta</strong> <br>Desarrollador <strong>Web</strong><br>bajo el stack 
-        <strong>MEAN</strong>
-      </h1>
-      <img src="images/hero.jpg" width="500" alt="Imagen principal del sitio"/>
+      <div class="container">
+        <h1>
+          Saludos! Soy <strong>Leonardo Mendieta</strong> <br/>Desarrollador <strong>JavaScript </strong><br/>
+          bajo el stack <strong>MEAN</strong>
+        </h1>
+        <img src="images/hero.jpg" alt="Imagen de la seccion hero" width="500px" height="300px" class="hero-image">
+      </div>
     </section>
     <section id="portafolio" class="portfolio">
-      <h2>Portafolio (PROYECTOS DESTACADOS)</h2>
-      <article>
-        <h3 class="project-title">Reproductor de Video</h3>
-        <h6 class="project-course">Javascript</h6>
-        <p class="project-date"><small><strong>Fecha:</strong> 15/05/2020</small></p>
-        <p class="project-url"><small><strong>Descargalo desde: </strong>Github.com</small></p>
-        <p class="project-description">
-          Este Aplicativo me llevo algún tiempo desarrollarlo ya que controla la reproducción del video sin 
-          basarse en la funcionalidad ofrecida por la etiqueta "video" de html5; sino más bien incorporando codigo Javascript
-          para cada uno de los controles que muestra, más de un listado con los videos disponibles.
-        </p>
+      <div class="container">
+        <h2>Portafolio (PROYECTOS DESTACADOS)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Reproductor de Video</h3>
+          <h6 class="project-course">Javascript</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 15/05/2020</small></p>
+          <p class="project-url"><small><strong>Descargalo desde: </strong>Github.com</small></p>
+          <p class="project-description">
+            Este Aplicativo me llevo algún tiempo desarrollarlo ya que controla la reproducción del video sin 
+            basarse en la funcionalidad ofrecida por la etiqueta "video" de html5; sino más bien incorporando codigo Javascript
+            para cada uno de los controles que muestra, más de un listado con los videos disponibles.
+          </p>
+        </div>
         <figure class="projet-image-container">
           <img class="project-image" src="images/reproductor-video.png" width="500" alt="Imagen del reproductor de video">
         </figure>
       </article>
-    </section>
-    <section id="eventos">
-      <h2>Más sobre mi Experiencia</h2>
-      <article class="event">
-        <figure class="event-image-container">
-          <img class="event-image" src="images/curso-desarrollo-web.jpg" width="500" alt="Imagen del curso de desarrollo web" />
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Reproductor de Video</h3>
+          <h6 class="project-course">Javascript</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 15/05/2020</small></p>
+          <p class="project-url"><small><strong>Descargalo desde: </strong>Github.com</small></p>
+          <p class="project-description">
+            Este Aplicativo me llevo algún tiempo desarrollarlo ya que controla la reproducción del video sin 
+            basarse en la funcionalidad ofrecida por la etiqueta "video" de html5; sino más bien incorporando codigo Javascript
+            para cada uno de los controles que muestra, más de un listado con los videos disponibles.
+          </p>
+        </div>
+        <figure class="projet-image-container">
+          <img class="project-image" src="images/reproductor-video.png" width="500" alt="Imagen del reproductor de video">
         </figure>
-        <h3 class="event-title">Curso de Desarrollo Web 2020</h3>
-        <p class="event-description">
-          En este curso se puede aprender las cosas básicas que todo desarrollador web debe conocer
-          y no se requiere ningún conocimiento previo.
-        </p>
-        <a class="event-url" href="#" target="_blank"></a>
       </article>
+      </div>
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi Experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-image-container">
+            <img class="event-image" src="images/curso-desarrollo-web.jpg" width="500" alt="Imagen del curso de desarrollo web" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Curso de Desarrollo Web 2020</h3>
+            <p class="event-description">
+              En este curso se puede aprender las cosas básicas que todo desarrollador web debe conocer
+              y no se requiere ningún conocimiento previo.
+            </p>
+            <a class="event-url" href="#" target="_blank">Ver Curso</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-image-container">
+            <img class="event-image" src="images/curso-desarrollo-web.jpg" width="500" alt="Imagen del curso de desarrollo web" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Curso de Desarrollo Web 2020</h3>
+            <p class="event-description">
+              En este curso se puede aprender las cosas básicas que todo desarrollador web debe conocer
+              y no se requiere ningún conocimiento previo.
+            </p>
+            <a class="event-url" href="#" target="_blank">Ver Curso</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-image-container">
+            <img class="event-image" src="images/curso-desarrollo-web.jpg" width="500" alt="Imagen del curso de desarrollo web" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Curso de Desarrollo Web 2020</h3>
+            <p class="event-description">
+              En este curso se puede aprender las cosas básicas que todo desarrollador web debe conocer
+              y no se requiere ningún conocimiento previo.
+            </p>
+            <a class="event-url" href="#" target="_blank">Ver Curso</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-image-container">
+            <img class="event-image" src="images/curso-desarrollo-web.jpg" width="500" alt="Imagen del curso de desarrollo web" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Curso de Desarrollo Web 2020</h3>
+            <p class="event-description">
+              En este curso se puede aprender las cosas básicas que todo desarrollador web debe conocer
+              y no se requiere ningún conocimiento previo.
+            </p>
+            <a class="event-url" href="#" target="_blank">Ver Curso</a>
+          </div>
+        </article>
+      </div>
     </section>
     <section id="contacto" class="contact">
-      <form action="/subscripcion" class="form-email">
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Dejame tu email" id="email" />
-        <button>Enviar</button>
-      </form>
+      <div class="container">
+        <form action="/subscripcion" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Dejame tu email" id="email" />
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/leonardomendieta" class="social-link twitter"></a>
+          <a href="https://facebook.com/leonardomendieta" class="social-link facebook"></a>
+          <a href="https://github.com/leonardomendieta" class="social-link github"></a>
+          <a href="https://instagram.com/leonardomendieta" class="social-link instagram"></a>
+        </div>
+      </div>
     </section>
     <footer class="footer">
-      Footer
+      <div class="container">
+        <div>
+          <p>
+            Leonardo Mendieta Rosales - 2020
+            <img src="images/logo.png" width="80px" alt="Logo de yupaku">
+          </p>
+        </div>
+        <div>
+          <p>
+            Diseñado por <a href="mailto:team@yupaku.site">team@yupaku.site</a>
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
